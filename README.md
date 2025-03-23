@@ -20,6 +20,11 @@ Instructions (Build Guide)
 TBA
 
 
+3D Models
+=========
+https://www.thingiverse.com/thing:6988852
+
+
 Source Code
 ===========
 Proximity VIbration (Python Code) - https://github.com/SANGERA2/Cyber-Cane/blob/main/home/pi/sensor.py
