@@ -4,21 +4,23 @@ Project Summary
 
 
 Video Proof of it Working - https://youtu.be/pShxKpfeMeo
+=========================
 
+Software and Hardware - 
+=====================
 
-Software and Hardware
-
-
-Instructions (Build Guide)
-
+Instructions (Build Guide) = 
+==========================
 
 Source Code
 ===========
 
 Proximity VIbration (Python Code) - https://github.com/SANGERA2/Cyber-Cane/blob/main/home/pi/sensor.py
 
-Voice Satellite Navigation (Python Code)
+Voice Satellite Navigation (Python Code) - https://github.com/SANGERA2/Cyber-Cane/blob/main/home/pi/GPS.py
 
-Proximity VIbration (Autostart Service)
+Compass Calibratino (Python Code) - https://github.com/SANGERA2/Cyber-Cane/blob/main/home/pi/calibrate.py
 
-Voice Satellite Navigation (Autostart Service)
+Proximity VIbration (Autostart Service) - https://github.com/SANGERA2/Cyber-Cane/blob/main/lib/systemd/system/sensor.service
+
+Voice Satellite Navigation (Autostart user Service) - https://github.com/SANGERA2/Cyber-Cane/blob/main/home/pi/.config/systemd/user/gps.service
