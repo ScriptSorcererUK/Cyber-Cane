@@ -1,0 +1,18 @@
+#Adapted from https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267
+#Has to be run as a user service to be able to use the bluetooth audio using information from the two links below
+#https://raspberrypi.stackexchange.com/questions/141067/systemd-user-service-shows-status-dead-on-boot-but-runs-when-manually-restart
+#https://github.com/Spotifyd/spotifyd/issues/685#issuecomment-706827011
+
+[Unit]
+Description=GPS service
+After=bluetooth.target
+
+[Service]
+WorkingDirectory=/home/pi/
+ExecStart=python3 -u GPS.py
+KillSignal=SIGINT
+Restart=on-failure
+Type=simple
+
+[Install]
+WantedBy=bluetooth.target
