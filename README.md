@@ -2,7 +2,7 @@
 
 Project Summary
 ===============
-TBA
+https://github.com/SANGERA2/Cyber-Cane/blob/main/PI%20Report.docx
 
 
 Video Proof of it Working
@@ -17,7 +17,7 @@ TBA
 
 Instructions (Build Guide)
 ==========================
-TBA
+https://github.com/SANGERA2/Cyber-Cane/blob/main/Steps%20to%20Build.docx
 
 
 3D Models
