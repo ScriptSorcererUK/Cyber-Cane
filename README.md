@@ -12,7 +12,7 @@ https://youtu.be/pShxKpfeMeo
 
 Software and Hardware
 =====================
-TBA
+https://github.com/SANGERA2/Cyber-Cane/blob/main/hardware%20and%20software.xlsx
 
 
 Instructions (Build Guide)
