@@ -164,6 +164,12 @@ while 1:
             print("...")
             #Wait one second before listening to a button press again
             time.sleep(1)
+        #If they pressed the button and there is no GPS signal to give them directions...
+        elif GPIO.input(12) == GPIO.HIGH:
+            text_to_speech("No G.P.S. Signal")
+            print("No GPS Signal")
+            #Wait one second before listening to a button press again
+            time.sleep(1)
 
     except serial.SerialException as e:
         #If the serial port didn't work, reset it
